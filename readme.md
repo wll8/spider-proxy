@@ -1,14 +1,16 @@
 # spider-proxy
 这个项目使用 node 实现了随机应用代理, UA信息来请求接口的 demo, 并介绍了如何搭建代理池等功能.
 
-
-![](https://cdn.jsdelivr.net/gh/filess/img3@main/2021/12/27/1640600307085-cd4bafca-f302-4d3a-85e0-aed2713181be.png)
-
-
 ``` sh
 npm i
 npm run dev
 ```
+
+- 访问: https://api.ipify.org 查看自己的 IP
+- 访问: http://127.0.0.1:9000/test/xxx 测试代理情况
+
+![](https://cdn.jsdelivr.net/gh/filess/img17@main/2021/12/27/1640601973568-7178ecfe-2dec-44de-a20b-03a6dfc68e6a.png)
+
 
 ## 如何实现代理
 ### axios

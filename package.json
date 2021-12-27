@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --watch index.js --exec node index.js",
+    "dev": "npx mockm",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,6 +13,7 @@
   "dependencies": {
     "axios": "^0.24.0",
     "https-proxy-agent": "^5.0.0",
+    "mockm": "^1.1.26-alpha.1",
     "nodemon": "^2.0.15",
     "user-agents": "^1.0.878"
   }
